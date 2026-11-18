@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Rakshit Mehta — 3rd Year B.Tech Computer Science Student & AI Enthusiast exploring Machine Learning, Generative AI, C++, Python, and DSA.">
+  <meta name="author" content="Rakshit Mehta">
+  <title>Rakshit Mehta | Computer Science Student &amp; AI Enthusiast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Pure CSS Theme Switcher Checkbox (Unchecked = Dark Theme, Checked = Light Theme) -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input" aria-label="Toggle between dark and light theme">
+
+  <div class="site-wrapper" id="top">
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Sticky Navigation Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand-logo" aria-label="Rakshit Mehta Home">
+          <span class="brand-monogram" aria-hidden="true">RM</span>
+          <span class="brand-text">Rakshit<span class="accent-dot">.</span></span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <!-- Pure CSS Dark / Light Mode Toggle Button -->
+          <label for="theme-toggle" class="theme-toggle-btn" title="Switch Dark / Light Theme">
+            <span class="theme-icon icon-sun" aria-hidden="true">&#9728;</span>
+            <span class="theme-icon icon-moon" aria-hidden="true">&#9790;</span>
+            <span class="theme-label-text">Theme</span>
+          </label>
+
+          <a href="#contact" class="btn btn-primary btn-sm desktop-cta">Hire / Intern</a>
+
+          <!-- Pure CSS Mobile Navigation Drawer using HTML5 <details> -->
+          <details class="mobile-nav-menu">
+            <summary class="mobile-nav-toggle" aria-label="Open Navigation Menu">
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </summary>
+            <nav class="mobile-nav-dropdown" aria-label="Mobile Navigation">
+              <ul class="mobile-nav-list">
+                <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+                <li><a href="#skills" class="mobile-nav-link">Skills &amp; Tech</a></li>
+                <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+                <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                <li><a href="#education" class="mobile-nav-link">Education</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                <li><a href="assets/documents/resume.pdf" class="btn btn-primary btn-block" download>Download Resume</a></li>
+              </ul>
+            </nav>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+      <!-- 1. HERO SECTION -->
+      <section class="hero-section" aria-labelledby="hero-heading">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="status-badge">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>Seeking Software &amp; AI/ML Internships &bull; B.Tech CSE '28</span>
+            </div>
+
+            <h1 id="hero-heading" class="hero-title">
+              Hi, I'm <span class="text-gradient">Rakshit Mehta</span>
+            </h1>
+
+            <p class="hero-role">
+              Computer Science Student &amp; AI Enthusiast
+            </p>
+
+            <p class="hero-bio">
+              An AI enthusiast discovering the Machine Learning and Generative AI world. Currently in my 3rd year (5th semester) of B.Tech in Computer Science &amp; Engineering, combining strong foundations in C, C++, Python, and Data Structures &amp; Algorithms with modern AI exploration.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">Explore My Work</a>
+              <a href="assets/documents/resume.pdf" class="btn btn-secondary" download>
+                Download Resume <span class="btn-note">(PDF)</span>
+              </a>
+              <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+
+            <div class="hero-quick-links" aria-label="Social and Direct Profiles">
+              <a href="https://github.com/rakshitmehta" target="_blank" rel="noopener noreferrer" class="quick-link">
+                <span class="mono-tag">GH</span> github.com/rakshitmehta &#8599;
+              </a>
+              <a href="https://www.linkedin.com/in/rakshit-mehta-690800322" target="_blank" rel="noopener noreferrer" class="quick-link">
+                <span class="mono-tag">IN</span> LinkedIn Profile &#8599;
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Profile Card -->
+          <div class="hero-visual">
+            <div class="profile-card">
+              <!--
+                OPTIONAL PROFILE PHOTO:
+                Once you place 'profile.jpg' inside 'assets/images/', uncomment the <img> tag below
+                and remove the '.avatar-placeholder' div.
+              -->
+              <!-- <img src="assets/images/profile.jpg" alt="Portrait of Rakshit Mehta" class="profile-image"> -->
+              <div class="avatar-placeholder" aria-hidden="true">
+                <span class="avatar-initials">RM</span>
+                <span class="avatar-caption">B.Tech CSE &bull; 2028</span>
+              </div>
+
+              <div class="profile-card-body">
+                <div class="terminal-header" aria-hidden="true">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-amber"></span>
+                  <span class="dot dot-green"></span>
+                  <span class="terminal-title">rakshit_profile.py</span>
+                </div>
+                <div class="code-snippet">
+                  <p><span class="code-key">role</span> = <span class="code-str">"CS Undergrad (5th Sem)"</span></p>
+                  <p><span class="code-key">focus</span> = [<span class="code-str">"AI/ML"</span>, <span class="code-str">"GenAI"</span>, <span class="code-str">"DSA"</span>]</p>
+                  <p><span class="code-key">languages</span> = [<span class="code-str">"Python"</span>, <span class="code-str">"C++"</span>, <span class="code-str">"C"</span>]</p>
+                  <p><span class="code-key">status</span> = <span class="code-bool">"Open to Internships"</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. ABOUT SECTION -->
+      <section id="about" class="section" aria-labelledby="about-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">01 / Introduction</span>
+            <h2 id="about-heading" class="section-title">About Me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text">
+              <p class="lead-paragraph">
+                I am a third-year Computer Science &amp; Engineering undergraduate (Batch of 2028) passionate about understanding how intelligent systems learn, reason, and solve complex real-world problems.
+              </p>
+              <p>
+                My academic journey started with a strong quantitative foundation—graduating Class 12th (ISC) with <strong>89%</strong>—and evolved into deep hands-on practice with core programming in <strong>C, C++, and Python</strong>. Alongside mastering Data Structures &amp; Algorithms (DSA) and responsive frontend design with HTML5 and CSS3, I actively explore Generative AI and Transformer-based Natural Language Processing.
+              </p>
+              <p>
+                Through industry-recognized certifications and virtual simulations from <strong>Oracle, NVIDIA, JPMorgan Chase &amp; Co., and Cisco Networking Academy</strong>, I bridge classroom theory with practical engineering workflows. I am currently looking for internship opportunities where I can contribute clean code, learn from experienced engineering teams, and grow as an AI and software developer.
+              </p>
+            </div>
+
+            <div class="about-highlights">
+              <div class="highlight-card">
+                <span class="highlight-number">3rd Yr</span>
+                <span class="highlight-label">B.Tech CSE (5th Sem)</span>
+                <p class="highlight-desc">Expected graduation in 2028 with a focus on core CS &amp; AI foundations.</p>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-number">4+</span>
+                <span class="highlight-label">Industry Credentials</span>
+                <p class="highlight-desc">Certified across Oracle GenAI, NVIDIA NLP, JPMorgan SE, and Cisco Python.</p>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-number">89%</span>
+                <span class="highlight-label">12th ISC Board</span>
+                <p class="highlight-desc">Strong academic track record and analytical problem-solving discipline.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. SKILLS SECTION -->
+      <section id="skills" class="section section-alt" aria-labelledby="skills-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">02 / Technical Arsenal</span>
+            <h2 id="skills-heading" class="section-title">Skills &amp; Expertise</h2>
+            <p class="section-subtitle">
+              Categorized overview of the programming languages, core computer science concepts, and AI domains I work with.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Category 1 -->
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+                <h3 class="skill-category-title">Programming Languages</h3>
+              </div>
+              <p class="skill-card-desc">
+                Core languages used for algorithmic problem solving, scripting, and software development.
+              </p>
+              <ul class="skill-tag-list" aria-label="Programming Languages">
+                <li class="skill-tag">Python</li>
+                <li class="skill-tag">C++</li>
+                <li class="skill-tag">C</li>
+              </ul>
+            </article>
+
+            <!-- Category 2 -->
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <span class="skill-icon" aria-hidden="true">&#10024;</span>
+                <h3 class="skill-category-title">AI &amp; Machine Learning Exploration</h3>
+              </div>
+              <p class="skill-card-desc">
+                Active areas of study backed by industry coursework from Oracle and NVIDIA.
+              </p>
+              <ul class="skill-tag-list" aria-label="AI and ML Skills">
+                <li class="skill-tag">Generative AI Fundamentals</li>
+                <li class="skill-tag">Transformer-Based NLP</li>
+                <li class="skill-tag">Machine Learning Foundations</li>
+                <li class="skill-tag">LLM Concepts</li>
+              </ul>
+            </article>
+
+            <!-- Category 3 -->
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <span class="skill-icon" aria-hidden="true">&#9881;</span>
+                <h3 class="skill-category-title">Core Computer Science</h3>
+              </div>
+              <p class="skill-card-desc">
+                Foundational engineering principles essential for writing efficient and scalable software.
+              </p>
+              <ul class="skill-tag-list" aria-label="Core CS Skills">
+                <li class="skill-tag">Data Structures &amp; Algorithms (DSA)</li>
+                <li class="skill-tag">Object-Oriented Programming</li>
+                <li class="skill-tag">Algorithmic Problem Solving</li>
+                <li class="skill-tag">Software Engineering Workflows</li>
+              </ul>
+            </article>
+
+            <!-- Category 4 -->
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <span class="skill-icon" aria-hidden="true">&#9638;</span>
+                <h3 class="skill-category-title">Web Technologies</h3>
+              </div>
+              <p class="skill-card-desc">
+                Frontend standards for building clean, accessible, and responsive web interfaces.
+              </p>
+              <ul class="skill-tag-list" aria-label="Web Technologies">
+                <li class="skill-tag">Semantic HTML5</li>
+                <li class="skill-tag">Modern CSS3</li>
+                <li class="skill-tag">Responsive Layout (Grid &amp; Flexbox)</li>
+                <li class="skill-tag">Git &amp; GitHub</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. CERTIFICATIONS & SIMULATIONS SECTION -->
+      <section id="certifications" class="section" aria-labelledby="cert-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">03 / Verified Learning</span>
+            <h2 id="cert-heading" class="section-title">Certifications &amp; Job Simulations</h2>
+            <p class="section-subtitle">
+              Industry certifications and practical engineering simulations completed alongside my B.Tech curriculum.
+            </p>
+          </div>
+
+          <div class="cert-grid">
+            <!-- Cert 1 -->
+            <article class="cert-card">
+              <div class="cert-top">
+                <span class="cert-issuer">Oracle</span>
+                <span class="cert-badge">Professional Certification</span>
+              </div>
+              <h3 class="cert-title">Oracle Generative AI Professional</h3>
+              <p class="cert-desc">
+                Comprehensive training in Large Language Models (LLMs), Generative AI architecture, embeddings, prompt engineering, and enterprise AI deployment workflows.
+              </p>
+              <div class="cert-footer">
+                <span class="mono-meta">Focus: Generative AI &amp; LLMs</span>
+                <!-- Replace '#' with your actual verification URL or certificate PDF path when ready -->
+                <span class="placeholder-tag">[Credential Link Placeholder]</span>
+              </div>
+            </article>
+
+            <!-- Cert 2 -->
+            <article class="cert-card">
+              <div class="cert-top">
+                <span class="cert-issuer">NVIDIA</span>
+                <span class="cert-badge">Deep Learning Institute</span>
+              </div>
+              <h3 class="cert-title">Building Transformer-Based Natural Language Processing Applications</h3>
+              <p class="cert-desc">
+                Focused on self-attention mechanisms, Transformer architectures, text classification, and building modern NLP pipelines.
+              </p>
+              <div class="cert-footer">
+                <span class="mono-meta">Focus: Transformers &amp; NLP</span>
+                <span class="placeholder-tag">[Credential Link Placeholder]</span>
+              </div>
+            </article>
+
+            <!-- Cert 3 -->
+            <article class="cert-card">
+              <div class="cert-top">
+                <span class="cert-issuer">JPMorgan Chase &amp; Co.</span>
+                <span class="cert-badge">Job Simulation</span>
+              </div>
+              <h3 class="cert-title">Software Engineering Job Simulation</h3>
+              <p class="cert-desc">
+                Practical exposure to real-world financial software engineering tasks, code interfacing, repository maintenance, and technical development workflows.
+              </p>
+              <div class="cert-footer">
+                <span class="mono-meta">Focus: Software Engineering</span>
+                <span class="placeholder-tag">[Credential Link Placeholder]</span>
+              </div>
+            </article>
+
+            <!-- Cert 4 -->
+            <article class="cert-card">
+              <div class="cert-top">
+                <span class="cert-issuer">Cisco Networking Academy</span>
+                <span class="cert-badge">Course Completion</span>
+              </div>
+              <h3 class="cert-title">Python Essentials 1</h3>
+              <p class="cert-desc">
+                Mastered core Python programming concepts, control flow, data collections, functions, exception handling, and algorithmic thinking.
+              </p>
+              <div class="cert-footer">
+                <span class="mono-meta">Focus: Python Programming</span>
+                <span class="placeholder-tag">[Credential Link Placeholder]</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. PROJECTS SECTION (WORK IN PROGRESS / PLACEHOLDERS) -->
+      <section id="projects" class="section section-alt" aria-labelledby="projects-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">04 / Active Builds &amp; Sandbox</span>
+            <h2 id="projects-heading" class="section-title">Projects &amp; Current Work</h2>
+            <p class="section-subtitle">
+              My core AI/ML and software projects are currently under active development. Below is an overview of what I am building and practicing right now.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1: Work in Progress -->
+            <article class="project-card">
+              <div class="project-visual">
+                <span class="project-status status-wip">Work in Progress &bull; Placeholder</span>
+                <div class="project-visual-title">AI / NLP Lab</div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Transformer NLP &amp; GenAI Sandbox</h3>
+                <p class="project-desc">
+                  <strong>[Project Under Development]</strong> Applying concepts from NVIDIA and Oracle certifications to build practical text analysis and Generative AI experiments in Python. Replace this placeholder description once your first milestone is pushed.
+                </p>
+                <ul class="project-tech-list" aria-label="Technologies used">
+                  <li>Python</li>
+                  <li>Transformer NLP</li>
+                  <li>Generative AI</li>
+                </ul>
+                <div class="project-links">
+                  <a href="https://github.com/rakshitmehta" target="_blank" rel="noopener noreferrer" class="project-link">
+                    Follow Progress on GitHub &#8599;
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Work in Progress -->
+            <article class="project-card">
+              <div class="project-visual">
+                <span class="project-status status-wip">Ongoing Practice &bull; Placeholder</span>
+                <div class="project-visual-title">DSA &amp; C++ / Python</div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Data Structures &amp; Algorithms Archive</h3>
+                <p class="project-desc">
+                  <strong>[Active Practice Repository]</strong> Ongoing collection of data structure implementations, sorting/searching algorithms, and problem-solving exercises written in C++, C, and Python for technical interview preparation.
+                </p>
+                <ul class="project-tech-list" aria-label="Technologies used">
+                  <li>C++</li>
+                  <li>C</li>
+                  <li>Python</li>
+                  <li>DSA</li>
+                </ul>
+                <div class="project-links">
+                  <a href="https://github.com/rakshitmehta" target="_blank" rel="noopener noreferrer" class="project-link">
+                    View GitHub Profile &#8599;
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: Completed Portfolio Build -->
+            <article class="project-card">
+              <div class="project-visual">
+                <span class="project-status status-live">Live Architecture</span>
+                <div class="project-visual-title">HTML5 + CSS3</div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Dual-Theme Developer Portfolio</h3>
+                <p class="project-desc">
+                  Designed and built a fast, accessible, zero-JavaScript personal portfolio utilizing semantic HTML5, CSS custom properties, responsive Grid/Flexbox layouts, and a pure-CSS dark/light theme switcher.
+                </p>
+                <ul class="project-tech-list" aria-label="Technologies used">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Responsive UI</li>
+                  <li>Accessibility</li>
+                </ul>
+                <div class="project-links">
+                  <a href="#top" class="project-link">Viewing Live Site &uarr;</a>
+                  <a href="https://github.com/rakshitmehta" target="_blank" rel="noopener noreferrer" class="project-link">
+                    GitHub &#8599;
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. EDUCATION SECTION -->
+      <section id="education" class="section" aria-labelledby="education-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">05 / Academic Background</span>
+            <h2 id="education-heading" class="section-title">Education</h2>
+          </div>
+
+          <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <article class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <span class="timeline-date">2024 &ndash; 2028 (Current: 3rd Year, 5th Sem)</span>
+                  <span class="timeline-badge">Undergraduate</span>
+                </div>
+                <h3 class="timeline-title">Bachelor of Technology (B.Tech) in Computer Science &amp; Engineering</h3>
+                <p class="timeline-institution">
+                  <span class="placeholder-inline">[Optional: Replace with Your University / College Name]</span>
+                </p>
+                <p class="timeline-desc">
+                  Pursuing core coursework in Data Structures &amp; Algorithms, Object-Oriented Programming in C++ and Python, Computer Networks, Operating Systems, and Artificial Intelligence foundations.
+                </p>
+              </div>
+            </article>
+
+            <!-- Timeline Item 2 -->
+            <article class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <span class="timeline-date">Higher Secondary (Class XII)</span>
+                  <span class="timeline-badge highlight-score">Score: 89%</span>
+                </div>
+                <h3 class="timeline-title">Class 12th &mdash; ISC Board</h3>
+                <p class="timeline-institution">
+                  Indian School Certificate (ISC) Examination
+                </p>
+                <p class="timeline-desc">
+                  Graduated with <strong>89%</strong>, building a strong analytical foundation in Mathematics, Science, and Computer Science principles.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. CONTACT SECTION -->
+      <section id="contact" class="section section-alt" aria-labelledby="contact-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">06 / Get in Touch</span>
+            <h2 id="contact-heading" class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">
+              I am actively looking for software engineering and AI/ML internship opportunities. Reach out directly via email, phone, or LinkedIn.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Direct Contact Cards -->
+            <div class="contact-methods">
+              <a href="mailto:rakshit.mehtacse2024@gmail.com" class="contact-card">
+                <span class="contact-card-label">Email Address</span>
+                <span class="contact-card-value">rakshit.mehtacse2024@gmail.com</span>
+                <span class="contact-card-action">Send an Email &rarr;</span>
+              </a>
+
+              <a href="tel:+919424098962" class="contact-card">
+                <span class="contact-card-label">Phone / WhatsApp</span>
+                <span class="contact-card-value">+91 9424098962</span>
+                <span class="contact-card-action">Call Directly &rarr;</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/rakshit-mehta-690800322" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <span class="contact-card-label">LinkedIn</span>
+                <span class="contact-card-value">in/rakshit-mehta-690800322</span>
+                <span class="contact-card-action">Connect on LinkedIn &#8599;</span>
+              </a>
+
+              <a href="https://github.com/rakshitmehta" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <span class="contact-card-label">GitHub</span>
+                <span class="contact-card-value">github.com/rakshitmehta</span>
+                <span class="contact-card-action">Explore Repositories &#8599;</span>
+              </a>
+            </div>
+
+            <!-- Visual HTML/CSS Contact Form -->
+            <div class="contact-form-wrapper">
+              <h3 class="form-heading">Quick Message Layout</h3>
+              <p class="form-notice">
+                <strong>Static HTML/CSS Note:</strong> Because this website runs purely on HTML5 and CSS3 without backend scripts, this form uses your device's default email client via <code>mailto:</code> when submitted. For instant outreach, click the direct email card on the left.
+              </p>
+
+              <form action="mailto:rakshit.mehtacse2024@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                <div class="form-group">
+                  <label for="sender-name" class="form-label">Your Name</label>
+                  <input type="text" id="sender-name" name="name" class="form-input" placeholder="e.g., Hiring Manager / Recruiter" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-email" class="form-label">Your Email</label>
+                  <input type="email" id="sender-email" name="email" class="form-input" placeholder="name@company.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="message-subject" class="form-label">Subject</label>
+                  <input type="text" id="message-subject" name="subject" class="form-input" placeholder="Internship Opportunity / Collaboration" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="message-body" class="form-label">Message</label>
+                  <textarea id="message-body" name="message" rows="4" class="form-textarea" placeholder="Hi Rakshit, I came across your portfolio..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Open in Email Client</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-text">Rakshit Mehta<span class="accent-dot">.</span></span>
+          <p class="footer-copy">
+            B.Tech CSE '28 &bull; AI Enthusiast &bull; Built with pure HTML5 &amp; CSS3.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://github.com/rakshitmehta" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/rakshit-mehta-690800322" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:rakshit.mehtacse2024@gmail.com">Email</a>
+          <a href="#top" class="back-to-top">Back to Top &uarr;</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
